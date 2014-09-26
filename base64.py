@@ -2,7 +2,7 @@
 """
 SYNOPSIS
 
-    script1.py will encode or decode to base64 which can be determined by the user.
+    base64.py will encode or decode to base64 which can be determined by the user.
     The script will prompt for a string to process and then return the originial and output.
 
 AUTHOR
