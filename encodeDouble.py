@@ -2,8 +2,9 @@
 """
 SYNOPSIS
 
-    base64.py will encode or decode to base64 which can be determined by the user.
-    The script will prompt for a string to process and then return the originial and output.
+    encodeDouble.py will encode or decode to base64, encode to md5, and encode first to base64
+    and then md5. The script will prompt for a string to process and then return the originial
+    and output.
 
 AUTHOR
 
