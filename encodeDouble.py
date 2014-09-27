@@ -34,7 +34,12 @@ def encode_both(string_to_encode):
     
 def decode(string_to_decode):
     print(string_to_decode)
-    print(base64.b64decode(string_to_decode))
+    length = len(string_to_decode)
+    remainder = length % 4
+    if remainder is not 0:
+	print("The string provided was not base64")
+    else:
+        print(base64.b64decode(string_to_decode))
 
 def wants_to_encode():
     choice = raw_input('Encode, Decode or Quit: ')
